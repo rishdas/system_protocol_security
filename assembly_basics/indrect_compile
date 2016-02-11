@@ -1,0 +1,88 @@
+Script started on Wed Feb 10 18:59:52 2016
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ cp test.s indirect.s 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ cp test.s indirect.s exit[Kgit commit -m "indirect addressing assembbly"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatusls[K\rm *~ git status[3Pecho $?./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.old -melf_i386 indirect.o -o indirectecho $?[K./indirect [4Pecho $?ld -melf_i386 indirect.o -o indirectecho $?[K./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o
+indirect.s: Assembler messages:
+indirect.s:20: Error: bad register name `%(ecx)'
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 indirect.s -o indirect.o
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 indirect.s -o indirect.o[11Pcp test.s indirect.s exit[Kgit commit -m "indirect addressing assembbly"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatusls[K\rm *~ git status[3Pecho $?./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.old -melf_i386 indirect.o -o indirect
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./indirect 
+Segmentation fault (core dumped)
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 indirect.s -o indirect.o[21P./indirect ld -melf_i386 indirect.o -o indirect
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o[21P./indirect 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ echo [6@./indirect[Cld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o[21P./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o[11Pcp test.s indirect.s exit[Kgit commit -m "indirect addressing assembbly"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatusls[K\rm *~ git status[3Pecho $?./indirect [4Pecho $?
+224
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ echo $?./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 indirect.s -o indirect.oecho $?[K./indirect ld -melf_i386 indirect.o -o indirect
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.oecho $?[K./indirect 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.oecho $?[K
+226
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   indirect.s[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello_world.c[m
+	[31mhello_world.s[m
+	[31mindirect[m
+	[31mindirect.o[m
+	[31mindrect_compile[m
+	[31mtest[m
+	[31mtest.o[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git add indd[K[K[K[K[K[K[K[K[K[K[K[Kgit status[3Pecho $?./indirect ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 indirect.s -o indirect.ogit status[K[3Pecho $?./indirect ld -melf_i386 indirect.o -o indirect
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.ogit status[K[3Pecho $?
+0
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./indirect 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./indirect [4Pecho $?
+226
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ echo $?./indirect [4Pecho $?ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.ogit status[K
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   indirect.s[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello_world.c[m
+	[31mhello_world.s[m
+	[31mindirect[m
+	[31mindirect.o[m
+	[31mindrect_compile[m
+	[31mtest[m
+	[31mtest.o[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git add indirect.s 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git commit -m ""O"v"e"r" "t"h"r"[1P"o"u"g"h"t" "t"h"e" "p"r"o"b"l"e"m" [A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ""c"o"r"r"e"c"t"i"n"g" "i"t"
+[master 3755e93] Over thought the problem correcting it
+ 1 file changed, 10 insertions(+), 7 deletions(-)
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git push origin master 
+Username for 'https://github.com': rishdas
+Password for 'https://rishdas@github.com': 
+Counting objects: 7, done.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 591 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/rishdas/system_protocol_security.git
+   1acecc4..3755e93  master -> master
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ cp tea[Kst[K[K[K[K[K[K[Kexit
+Script done on Wed Feb 10 19:07:14 2016

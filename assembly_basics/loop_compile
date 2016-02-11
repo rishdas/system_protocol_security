@@ -1,0 +1,70 @@
+Script started on Wed Feb 10 19:08:11 2016
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ exitgit push origin master commit -m "Over thought the problem ccorrecting it"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[17Ppush origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[Kcp test.s loop.s
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ cp test.s loop.sexit[Kgit push origin master commit -m "Over thought the problem ccorrecting it"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatus[3Pecho $?./indirect [4Pecho $?ld -melf_i386 indirect.o -o indirect[4Pas --32 indirect.s -o indirect.o[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@o[1@p[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.o[1P.o[1P.o[1P.o[1P.o[1P.o[1P.o[1P.ol.oo.oo.op.o[C
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as --32 loop.s -o loop.o[8Pcp test.s loop.sexit[Kgit push origin master commit -m "Over thought the problem ccorrecting it"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatus[3Pecho $?./indirect [4Pecho $?ld -melf_i386 indirect.o -o indirect[1P[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@o[1@p[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kloop
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./loop 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./loop ld -melf_i386 loop.o -o loop[4Pas --32 loop.s -o loop.o[8Pcp test.s loop.sexit[Kgit push origin master commit -m "Over thought the problem ccorrecting it"[A]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ [C[C[C[C[21Padd indirect.s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pstatus[3Pecho $?
+223
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mindirect[m
+	[31mindirect.o[m
+	[31mindrect_compile[m
+	[31mloop[m
+	[31mloop.o[m
+	[31mloop.s[m
+	[31mloop.s~[m
+	[31mloop_compile[m
+	[31mtest[m
+	[31mtest.o[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ rm *~
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ls
+[0m[01;32mindirect[0m    indirect.s       [01;32mloop[0m    loop.s        power.s  test.o
+indirect.o  indrect_compile  loop.o  loop_compile  [01;32mtest[0m     test.s
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ls -l
+total 56
+-rwxrwxr-x 1 seclab seclab   779 Feb 10 19:05 [0m[01;32mindirect[0m
+-rw-rw-r-- 1 seclab seclab   732 Feb 10 19:05 indirect.o
+-rw-rw-r-- 1 seclab seclab  1446 Feb 10 19:05 indirect.s
+-rw-rw-r-- 1 seclab seclab 11171 Feb 10 19:07 indrect_compile
+-rwxrwxr-x 1 seclab seclab   826 Feb 10 19:32 [01;32mloop[0m
+-rw-rw-r-- 1 seclab seclab   784 Feb 10 19:32 loop.o
+-rw-rw-r-- 1 seclab seclab  1351 Feb 10 19:31 loop.s
+-rw-rw-r-- 1 seclab seclab  4096 Feb 10 19:32 loop_compile
+-rw-rw-r-- 1 seclab seclab  2708 Feb 10 16:37 power.s
+-rwxrwxr-x 1 seclab seclab   767 Feb 10 16:40 [01;32mtest[0m
+-rw-rw-r-- 1 seclab seclab   720 Feb 10 16:40 test.o
+-rw-rw-r-- 1 seclab seclab  1265 Feb 10 16:37 test.s
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mindirect[m
+	[31mindirect.o[m
+	[31mindrect_compile[m
+	[31mloop[m
+	[31mloop.o[m
+	[31mloop.s[m
+	[31mloop_compile[m
+	[31mtest[m
+	[31mtest.o[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ git a[K[K[K[K[Kexi[K[Kxit
+Script done on Wed Feb 10 19:46:23 2016
