@@ -14,18 +14,20 @@ data_items:
 .globl _start
 _start:
 pushl $3        #push second argument
-pushl $2        #push first argument
+pushl $5        #push first argument
 call power      #call the function
 addl $8, %esp   #move the stack pointer back
 pushl %eax      #save the first answer before calling the next function
-pushl $2        #push second argument
-pushl $2        #push first argument
+pushl $3        #push second argument
+pushl $5        #push first argument
 call power      #call the function
 addl $8, %esp   #move the stack pointer back
 popl %ebx       #the second answer is alerady in %eax.  We saved
                 #the first answer onto the stack, so now we can
                 #just pop it out into %ebx
 addl %eax, %ebx #add them together.  The result is in %ebx
+
+#jmp loop_exit
 
 movl $0, %edi
 leal data_items, %edx
