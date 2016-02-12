@@ -3,7 +3,7 @@
 
 .section .data
 data:
-.long 4
+.long 5
 .section .text
 .globl _start	
 _start:
@@ -11,7 +11,8 @@ leal data, %ebx
 movl (%ebx), %ecx
 pushl %ecx	
 call fact
-
+jmp loop_exit
+	
 .type fact, @function
 fact:
 pushl %ebp #save the base pointer
@@ -32,3 +33,7 @@ no_recurse:
 movl %ebp, %esp #restore the stack pointer
 popl %ebp #restore the base pointer
 ret	
+
+loop_exit:
+	movl $1, %eax
+	int $0x80

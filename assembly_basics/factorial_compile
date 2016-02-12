@@ -1,0 +1,8 @@
+Script started on Fri Feb 12 12:42:14 2016
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ as [K[K[Kas --32 factorial.s -o factorial.o
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ld -melf_i386 factorial.o -o factorial [A
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ ./factorial 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ echo $?
+120
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/assembly_basicsseclab@SecurityLabUbuntu64:~/system_protocol_security/assembly_basics$ exit
+Script done on Fri Feb 12 12:43:14 2016
