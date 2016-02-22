@@ -1,0 +1,40 @@
+Script started on Mon Feb 22 16:14:57 2016
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ as open_hardcoded_file.s -o open_hardcoded_file.s [K[Ko
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ld open_hardcoded_file.o -o open_hardcoded_file.[K
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./open_hardcoded_file 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ as write_hardcoded_file.s -o open_[K[K[K[K[Kwrite_hardcoded_file.s [K[Ko
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ld write_hardcoded_file.o -o write_hardcoded_file.[K
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./write_hardcoded_file [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat test.txt 
+Hi this is Sirshak
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./write_hardcoded_file 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt 
+Hi this is Sirshak
+Assembly is a pain
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ as op[K[Kread_cmd_line_file.s [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kopen_hardcoded_file.s -o open_hardcoded_file.o 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ls[Kd open_[K[K[K[K[K[K[K[Kas open_cmd_line_file.s 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ as open_cmd_line_file.s - o [K[K[Ko open_cmd_line_file.s [K[Ko
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ls [K[Kd open_cmd_line_file.o -o open_cmd_line_file.[K
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./open_cmd_line_file 
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ as write_cmd_line_file.s -o write_cmd_line_file.s [K[Ko
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ld write_cmd_line_file.o -o wi[Krite_cmd_line_file.[K
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt 
+Hi this is Sirshak
+Assembly is a pain
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./wt[Krite_cmd_line_file test.txt seclab
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt 
+Hi this is Sirshak
+Assembly is a pain
+seclab]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt ./write_cmd_line_file test.txt seclab
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./write_cmd_line_file test.txt seclab
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./write_cmd_line_file test.txt seclab[24Pcat test.txt 
+Hi this is Sirshak
+Assembly is a pain
+seclabseclabseclab]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt ./write_cmd_line_file test.txt seclab[K[K[K[K[K[KAssembley[K[Ky
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./write_cmd_line_file test.txt Assembly[26Pcat test.txt 
+Hi this is Sirshak
+Assembly is a pain
+seclabseclabseclabAssemb]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ cat test.txt ./write_cmd_line_file test.txt Assembly[26Pcat test.txt [Kc[Kas read_cmd_line_file.s =[K-o read_cmd_line_file.s [K[Ko
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ls[Kd read_cmd_line_file.o -o read_cmd_line_file.[K
+]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ ./read_cmd_line_file test.txt 
+Hi thi]0;seclab@SecurityLabUbuntu64: ~/system_protocol_security/command_line_args_assemblyseclab@SecurityLabUbuntu64:~/system_protocol_security/command_line_args_assembly$ exit
+Script done on Mon Feb 22 16:19:33 2016
